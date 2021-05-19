@@ -1,0 +1,44 @@
+body{
+	color :#121212 ; /*color permet de changer la couleur de notre texte. On pourra utiliser le nom anglais d'une couleur, son code hexadecimal ou encore le code rgb */
+	background-color:white;/*background color permet de changer la  couleur de fond de nos éléments*/
+    font-family:cursive;/*front family permet de choisir le type d'écriture_voir mon post-it*/
+    font-size:15px;/*front size permet de modifier la taille des lettres */
+    line-height:20px;/*line-height permet de modifier l'espace entre deux lignes du texte */
+    text-align:center;/*Il est possible de modifier la position du texte en le mettant au centre avec la valeur center,à gauche avec left, à droite avec right*/
+   }   
+	
+h1{
+	color : #e61212; 
+    font-family:sans-serif;
+    font-variant:small-caps;/*Permet de transformer toutes les lettres en petites majuscules*/
+    letter-spacing:1px;/*Pour augmenter l'espace entre les lettres*/
+ }   
+
+h2{
+	color:#e61212;
+	font-weight:lighter;/*IL est possible de modifier l'épaisseur des lettre, lighter pour les affiner et bolder pour les épaissir*/
+}
+
+a{
+	color:red;
+	text-decoration:none;/*Permet de supprimer la barre de soulignement présente en dessous du format par défaut des liens */
+}
+
+a:hover{ /*il est possible de modifier la couleur de notre lien losque qu'on passe notre souris dessus */ 
+	color:#0e6319;
+}
+
+div{
+	margin:25px 300px;/* correspond aux marges extérieurs */
+	padding:20px; /*correspond aux marges intérieure*/
+	border-radius:20px; /* permet d'arrondir les angles de nos bords*/
+	box-shadow:10px 10px 20px green;/*permet d'ajouter une ombre à nos éléments*/
+}
+
+iframe{
+	border-radius:10px;
+}
+
+img{
+	border-radius:10px;
+}
